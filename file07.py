@@ -13,7 +13,7 @@ def main(data:str):
     return sum
     
 # Read data from file
-f=open(".\\txt_file\data07.txt","r")
+f=open("./txt_file/data07.txt","r")
 data=f.read()
 print(main(data))
 f.close()
