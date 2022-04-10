@@ -15,7 +15,7 @@ def main(data:str):
             non_digital += 1
     return [digital, non_digital]
 # Read data from file
-f=open(".\\txt_file\data05.txt","r")
+f=open("./txt_file/data05.txt","r")
 data=f.read()
 print(main(data))
 f.close()
