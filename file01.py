@@ -12,7 +12,7 @@ def main(data:str):
     return l
 
 # Read data from file
-f=open(".\\txt_file\data01.txt","r")
+f=open("./txt_file/data01.txt","r")
 data=f.read()
 print(main(data))
 f.close()
