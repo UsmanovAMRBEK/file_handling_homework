@@ -14,7 +14,7 @@ def main(data:str):
             l.append(i)
     return l
 # Read data from file
-f=open(".\\txt_file\data04.txt","r")
+f=open("./txt_file/data04.txt","r")
 data=f.read()
 print(main(data))
 f.close()
